@@ -1,4 +1,6 @@
-        if len(password) > 8:
+class account:
+    def check_password_length(self, password):
+	if len(password) > 8:
             return True
         else:
             return False
